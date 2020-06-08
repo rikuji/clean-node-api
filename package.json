@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll",
+    "test:staged": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "devDependencies": {
     "jest": "^26.0.1",
     "lint-staged": "^10.2.9"
+  },
+  "dependencies": {
+    "husky": "^4.2.5"
   }
 }
